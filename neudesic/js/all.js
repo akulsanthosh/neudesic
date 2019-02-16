@@ -108,6 +108,11 @@ function sendDetails() {
 
 
     console.log("details:" + email + name + phone);
+
+    window.open('mailto:akul753@gmail.com?subject=Invite&body=details: + email + name + phone');
+
+    document.getElementById("donetext").style.display = "block";
+    document.getElementById("formtext").style.display = "none";
 }
 
 
